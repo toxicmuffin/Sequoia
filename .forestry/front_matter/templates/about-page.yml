@@ -1,0 +1,109 @@
+---
+label: About Page
+hide_body: false
+fields:
+- name: heading
+  type: text
+  config:
+    required: true
+  label: Heading
+  description: This is a heading
+- name: text_field_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Field 1
+  description: This is text field 1
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  showOnly:
+    field: author
+    value: Kai
+- name: blocks
+  type: blocks
+  template_types:
+  - highlights
+  config:
+    min: 
+    max: 
+  label: Blocks
+  description: This is blocks field
+- name: text_field_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Field 2
+  description: This is text field 2
+- name: author
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: author-list
+      file: content/data/authors.json
+      path: authors
+  label: Author
+  description: Select an author
+- name: sortable_one
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Sortable One
+- name: field_group_one
+  type: field_group
+  config: {}
+  fields:
+  - name: some_kind_of_heading
+    type: text
+    config:
+      required: false
+    label: Some Kind Of Heading
+  - name: paragraph_one
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Paragraph One
+  label: Field Group One
+- name: toggle_one
+  type: boolean
+  label: Toggle One
+  default: false
+- name: color_picker
+  type: color
+  label: Color Picker
+  config:
+    required: false
+    color_format: Hex
+- name: field_selector
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: author-list
+      file: content/data/authors.json
+      path: authors
+  label: Field Selector
+pages:
+- content/data/about.json

@@ -1,0 +1,35 @@
+---
+label: Gallery Page
+hide_body: false
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: naming_scheme_5
+  type: field_group_list
+  fields:
+  - name: image_title
+    type: text
+    config:
+      required: true
+    label: Image Title
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    default: "/ren-ran-bBiuSdck8tU-unsplash.jpg"
+  - name: image_alt_tag
+    type: text
+    config:
+      required: true
+    label: Image Alt Tag
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Naming Scheme 5
+pages:
+- content/data/gallery.json

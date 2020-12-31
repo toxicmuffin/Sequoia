@@ -1,0 +1,56 @@
+{
+  "background_color": "#B1BCBC",
+  "text_color": "#EBEBEB",
+  "description": "",
+  "cta": "",
+  "contact": {
+    "email": "",
+    "twitter_handle": "",
+    "github_handle": ""
+  },
+  "heading": "This Heading is About",
+  "text_field_1": "hello world!",
+  "blocks": [
+    {
+      "template": "highlights",
+      "highlights": [
+        {
+          "headline": "Heading 1",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/"
+        },
+        {
+          "headline": "Heading 2",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/"
+        },
+        {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/blog/the-geneology-of-morals",
+          "headline": "Heading 3"
+        }
+      ]
+    }
+  ],
+  "text_field_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis purus laoreet, imperdiet lorem a, sollicitudin elit. Nullam pharetra elit quis est fermentum, nec tincidunt est vestibulum. Cras ultricies nisl ac felis facilisis euismod. Curabitur id euismod sapien. Pellentesque lacus enim, tempus at diam at, volutpat consequat urna. In augue purus, pellentesque at ultrices id, efficitur et odio. Sed et velit semper, gravida nisi vel, dignissim mi. Mauris dapibus sodales felis, at faucibus nibh molestie eu. Sed vel ex sed velit semper vestibulum. ",
+  "field_group_1": {
+  },
+  "author": "Kai",
+  "gallery": [
+    "/heather-shevlin-3B_NrzTjajc-unsplash.jpg",
+    "/kunj-parekh-H69EgivmCjE-unsplash.jpg",
+    "/elcarito-CRn-_80z4SE-unsplash.jpg"
+  ],
+  "sortable_one": [
+    "List Item One",
+    "List Item Three",
+    "List Item Two"
+  ],
+  "field_group_one": {
+    "some_kind_of_heading": "You call that a knife?",
+    "paragraph_one": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "toggle_one": false,
+  "color_picker": "#BDFFEE",
+  "field_selector": "Kai"
+}

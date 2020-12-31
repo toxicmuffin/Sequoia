@@ -1,0 +1,25 @@
+{
+  "heading": "This Is An Image Gallery",
+  "naming_scheme_5": [
+    {
+      "image_title": "Blue Lemon Group",
+      "image": "/davisco-5E5N49RWtbA-unsplash.jpg",
+      "image_alt_tag": "Blue Lemon"
+    },
+    {
+      "image_title": "Sand",
+      "image": "/heather-shevlin-3B_NrzTjajc-unsplash.jpg",
+      "image_alt_tag": "Sand Dune"
+    },
+    {
+      "image_title": "Leaves",
+      "image": "/ren-ran-bBiuSdck8tU-unsplash.jpg",
+      "image_alt_tag": "leaves"
+    },
+    {
+      "image_title": "Black Sand",
+      "image": "/kunj-parekh-H69EgivmCjE-unsplash.jpg",
+      "image_alt_tag": "Bland Sand Dune"
+    }
+  ]
+}

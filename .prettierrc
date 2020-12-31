@@ -1,0 +1,7 @@
+{
+  "semi": true,
+  "formatOnSave": true,
+  "arrowParens": "always",
+  "singleQuote": true,
+  "htmlWhitespaceSensitivity": "ignore"
+}
